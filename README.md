@@ -37,6 +37,7 @@ genese cpx [pathDir]
 | -m --markdown | | | Generate a Markdown report instead of a HTML report |
 | -c --console | | | Disable report generation and output result to console |
 | -r --refactor | | | Enable refactoring report generation |
+| -wa --withoutAnalysis | | | Allow to skip language analysis, \[pathDir] must contain a well formed json-ast.json file at root |
 
 Genese complexity is available for TypeScript, JavaScript and Java.
 
